@@ -1,0 +1,56 @@
+body{
+    font-size: 14px;
+    font-family: "Microsoft YaHei UI", sans-serif;
+    color: #333;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    text-decoration: none;
+    color: #333;
+}
+
+/*自定义字体*/
+@font-face{
+    font-family: 'xyicon';
+    src:
+            url(./fonts/MiFie-Web-Font.svg) format('svg'),
+            url(./fonts/MiFie-Web-Font.eot) format('embedded-opentype'),
+            url(./fonts/MiFie-Web-Font.ttf) format('truetype'),
+            url(./fonts/MiFie-Web-Font.woff) format('woff');
+}
+.xyicon{
+    font-family: xyicon;
+}
+.xyicon-phone::before{
+    content: "\e908";
+}
+.xyicon-tel::before{
+    content: "\e909";
+}
+
+.topbar{
+    border: 1px solid #ccc;
+}
+.topbar > .container{}
+.topbar > .container > .row{}
+.topbar > .container > .row > div{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-left: 1px solid #ccc;
+}
+.topbar > .container > .row > div:first-child{
+    border-left: none;
+}
+.app{
+    display: block;
+}
+.app:hover img{
+    display: inline;
+}
+.app img{
+    display: none;
+}
