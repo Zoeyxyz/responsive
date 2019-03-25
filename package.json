@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "art-template": "^4.13.2",
     "bootstrap": "^3.4.1",
     "html5shiv": "^3.7.3",
     "jquery": "^3.3.1",
